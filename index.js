@@ -14,7 +14,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "https://college-lms-2.onrender.com",
+      // "https://college-lms-2.onrender.com",
+      "https://college-lms-frontend.onrender.com",
       "http://localhost:5173", 
     ],
     credentials: true,

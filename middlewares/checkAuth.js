@@ -11,6 +11,6 @@ export const checkAuth = (req, res, next) => {
     next();
   } catch (err) {
     console.log(err)
-    return res.status(500).json({ message: "Sevrer side error" });
+    return res.status(500).json({ message: "Sever side error" });
   }
 };

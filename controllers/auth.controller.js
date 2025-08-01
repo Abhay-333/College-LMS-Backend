@@ -34,6 +34,7 @@ export const signUp = async (req, res) => {
       httponly: true,
       secure: true,
       samesite: "none",
+      domain: "college-lms-backend.onrender.com",
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
     res.status(201).send("User created successfully");
@@ -68,6 +69,7 @@ export const login = async (req, res) => {
       httponly: true,
       secure: true,
       samesite: "none",
+      domain: "college-lms-backend.onrender.com",
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
     res.status(200).send("login successfull");
